@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  background-color: #eeeeee;
+  min-height: 100vh;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  overflow: scroll;
+  padding: 10px;
+}
+
+.todo-item {
+  display: flex;
+  flex-wrap: wrap;
+  border: #7c7c7c solid 3px;
+  width: 75%;
+  min-height: 4rem;
+  padding: 10px 1rem;
+  margin: 1rem;
+  background-color: #8f8f8f;
+}
+
+.todo-item span {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.todo-item-interact {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  height: fit-content;
+}
+
+.todo-item span h3 {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.todo-item span p {
+  margin: 0;
+}
